@@ -39,6 +39,10 @@ Then visit:
 http://localhost:8000
 ```
 
+## Live URL
+
+https://reality-check-ai-brutally-honest-life.onrender.com/
+
 ## Usage
 
 1. Type a question in the input field.
