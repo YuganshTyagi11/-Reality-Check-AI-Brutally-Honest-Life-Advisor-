@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brutally Honest Life Advisor</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">No sugarcoating. No coddling.</p>
+        <h1>Brutally Honest Life Advisor</h1>
+        <p class="subtitle">
+          Ask anything. Get four sections every time: harsh truth, logic, risk,
+          and an action plan.
+        </p>
+      </header>
+
+      <section class="panel input-panel">
+        <label for="question">Your question</label>
+        <div class="row">
+          <input
+            id="question"
+            type="text"
+            placeholder="Should I quit my job?"
+            autocomplete="off"
+          />
+          <button id="askBtn">Get Reality-Free Brutal Advice</button>
+        </div>
+      </section>
+
+      <section id="output" class="panel output-panel hidden" aria-live="polite">
+        <article>
+          <h2>Harsh Truth</h2>
+          <p id="harshTruth"></p>
+        </article>
+        <article>
+          <h2>Logical Breakdown</h2>
+          <ul id="logicList"></ul>
+        </article>
+        <article>
+          <h2>Risk Analysis</h2>
+          <ul id="riskList"></ul>
+        </article>
+        <article>
+          <h2>Action Plan</h2>
+          <ol id="actionList"></ol>
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
